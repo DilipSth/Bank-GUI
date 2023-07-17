@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BankCard
+comment0.text=\n\ This\ code\ defines\ a\ class\ called\ "BankCard"\ that\ has\ several\ attributes\ such\ as\ cardID,\ clientName,\ issuerBank,\ bankAccount,\ and\ balanceAmount.\n\ It\ also\ has\ a\ constructor\ that\ accepts\ four\ parameters\ and\ assigns\ the\ values\ of\ the\ balanceAmount,\ cardID,\ bankAccount,\ and\ issuerBank\ \n\ attributes.\ The\ class\ also\ includes\ five\ getter\ methods\ (getCardID(),\ getClintName(),\ getIssuerBank(),\ getBankAccount(),\ getBalanceAmount())\ \n\ that\ return\ the\ values\ of\ the\ corresponding\ attributes.\ It\ also\ has\ two\ setter\ methods\ setClientName()\ which\ assigns\ the\ value\ of\ clientName,\ \n\ setBalanceAmount()\ which\ assigns\ the\ value\ of\ balanceAmount.\ It\ also\ has\ a\ display()\ method\ that\ displays\ the\ output\ if\ the\ clientName\ is\ not\ \n\ assigned\ it\ will\ print\ "Client\ name\ not\ assigned"\ otherwise\ it\ will\ display\ the\ card\ ID,\ client\ name,\ issuer\ bank,\ bank\ account,\ and\ balance\ \n\ amount.\n\n\ @author\ (22067670\ Dilip\ Shrestha)\n\ @version\ (5.1.0a)\n
+comment1.params=balanceAmount\ cardID\ bankAccount\ issuerBank
+comment1.target=BankCard(double,\ int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getCardID()
+comment3.params=
+comment3.target=java.lang.String\ getClintName()
+comment4.params=
+comment4.target=java.lang.String\ getIssuerBank()
+comment5.params=
+comment5.target=java.lang.String\ getBankAccount()
+comment6.params=
+comment6.target=double\ getBalanceAmount()
+comment7.params=clientName
+comment7.target=void\ setClientName(java.lang.String)
+comment8.params=balanceAmount
+comment8.target=void\ setBalanceAmount(double)
+comment9.params=
+comment9.target=void\ display()
+numComments=10

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment0.text=\n\ This\ code\ defines\ a\ class\ called\ "DebitCard"\ that\ extends\ from\ the\ "BankCard"\ class.\ The\ DebitCard\ class\ has\ several\ attributes\ such\ as\ \n\ pinNumber,\ withdrawalAmount,\ dateOfWithdrawal,\ and\ hasWithdrawn.\ It\ also\ has\ a\ constructor\ that\ accepts\ six\ parameters\ and\ uses\ the\ "super"\ \n\ keyword\ to\ call\ the\ constructor\ of\ the\ parent\ class\ and\ set\ the\ values\ of\ the\ balanceAmount,\ cardID,\ bankAccount,\ and\ issuerBank\ attributes.\ \n\ It\ also\ has\ a\ setClientName()\ method\ inherited\ from\ the\ parent\ class\ which\ is\ used\ to\ set\ the\ value\ of\ the\ clientName\ attribute.\ The\ class\ \n\ also\ includes\ four\ getter\ methods\ (getPinNumber(),\ getWithdrawalAmount(),\ getDateOfWithdrawal(),\ getHasWithdrawn())\ that\ return\ the\ values\ of\ \n\ the\ corresponding\ attributes.\ It\ also\ has\ a\ setWithdrawalAmount()\ method\ which\ assigns\ the\ value\ of\ withdrawalAmount.\ It\ also\ has\ a\ withdraw()\ \n\ method\ that\ checks\ the\ pinNumber,\ withdrawalAmount,\ and\ balanceAmount\ and\ withdraws\ the\ money\ if\ the\ conditions\ are\ met\ otherwise\ it\ will\ print\ \n\ "You\ have\ entered\ wrong\ pin\ number\ or\ there\ is\ no\ sufficient\ balance"\ It\ also\ has\ a\ display()\ method\ that\ displays\ the\ output\ if\ the\ \n\ hasWithdrawn\ attribute\ is\ true,\ it\ will\ display\ the\ withdrawal\ amount,\ date\ of\ withdrawal,\ pin\ number\ otherwise\ it\ will\ display\ the\ balance\ \n\ amount.\n\n\ @author\ (22067670\ Dilip\ Shrestha)\n\ @version\ (5.1.0a)\n
+comment1.params=balanceAmount\ cardID\ bankAccount\ issuerBank\ clientName\ pinNumber
+comment1.target=DebitCard(double,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getPinNumber()
+comment2.text=\ \ \n\ There\ are\ four\ getter\ methods\:\ getWithdrawalAmount(),\ getWithdrawalAmount(),\ getDateOfWithdrawal(),\ getHasWithdrawn()\ which\ return\ \n\ the\ followig\ attributes\n
+comment3.params=
+comment3.target=int\ getWithdrawalAmount()
+comment4.params=
+comment4.target=java.lang.String\ getDateOfWithdrawal()
+comment5.params=
+comment5.target=boolean\ getHasWithdrawn()
+comment6.params=withdrawalAmount
+comment6.target=void\ setWithdrawalAmount(int)
+comment7.params=withdrawalAmount\ dateOfWithdrawal\ pinNumber
+comment7.target=void\ Withdraw(int,\ java.lang.String,\ int)
+comment8.params=
+comment8.target=void\ display()
+numComments=9

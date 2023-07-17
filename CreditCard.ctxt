@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=CreditCard
+comment0.text=\n\ This\ code\ defines\ a\ class\ called\ "CreditCard"\ that\ extends\ from\ the\ "BankCard"\ class.\ The\ CreditCard\ class\ has\ several\ attributes\ such\ as\ \n\ cvcNumber,\ creditLimit,\ interestRate,\ expirationDate,\ gracePeriod,\ and\ isGranted.\ It\ also\ has\ a\ constructor\ that\ accepts\ eight\ parameters\ and\ \n\ uses\ the\ "super"\ keyword\ to\ call\ the\ constructor\ of\ the\ parent\ class\ and\ set\ the\ values\ of\ the\ balanceAmount,\ cardID,\ bankAccount,\ and\ \n\ issuerBank\ attributes.\ It\ also\ has\ a\ setClientName()\ method\ inherited\ from\ the\ parent\ class\ which\ is\ used\ to\ set\ the\ value\ of\ the\ clientName\ \n\ attribute.\ The\ class\ also\ includes\ six\ getter\ methods\ (getCvcNumber(),\ getCreditLimit(),\ getInterestRate(),\ getExpirationDate(),\ gracePeriod(),\n\ getIsGranted())\ that\ return\ the\ values\ of\ the\ corresponding\ attributes.\ It\ also\ has\ a\ setCreditLimit()\ method\ which\ assigns\ the\ values\ of\ \n\ creditLimit\ and\ gracePeriod\ if\ creditLimit\ is\ less\ than\ or\ equal\ to\ 2.5*balanceAmount.\ It\ also\ has\ a\ cancelCreditCard()\ method\ which\ cancels\ \n\ the\ credit\ card\ if\ certain\ conditions\ are\ met,\ and\ a\ display()\ method\ that\ displays\ the\ output\ if\ the\ isGranted\ attribute\ is\ true.\n\n\ @author\ (22067670\ Dilip\ Shrestha)\n\ @version\ (5.1.0a)\n
+comment1.params=cardID\ clientName\ issuerBank\ bankAccount\ balanceAmount\ cvcNumber\ interestRate\ expirationDate
+comment1.target=CreditCard(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int,\ double,\ java.lang.String)
+comment1.text=\n\ This\ is\ a\ constructor\ which\ accept\ eight\ parameter\n
+comment10.params=
+comment10.target=void\ display()
+comment2.params=
+comment2.target=int\ getCvcNumber()
+comment2.text=\n\ There\ are\ six\ getter\ method\:\ getCvcNumber(),\ getCreditLimit(),\ getInterestRate(),\ getExpirationDate(),\ gracePeriod(),\ getIsGranted()\ \n\ which\ return\ the\ followig\ attributes\ \n
+comment3.params=
+comment3.target=double\ getCreditLimit()
+comment4.params=
+comment4.target=double\ getInterestRate()
+comment5.params=
+comment5.target=java.lang.String\ getExpirationDate()
+comment6.params=
+comment6.target=int\ gracePeriod()
+comment7.params=
+comment7.target=boolean\ getIsGranted()
+comment8.params=creditLimit\ gracePeriod
+comment8.target=void\ setCreditLimit(double,\ int)
+comment9.params=
+comment9.target=void\ cancelCreditCard()
+numComments=11
